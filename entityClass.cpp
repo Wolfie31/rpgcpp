@@ -1,4 +1,4 @@
-#include"entityClass.h"
+#include"includes/entityClass.h"
 #include<iostream>
 #include<string>
 #include<iostream>
@@ -17,13 +17,12 @@ TYPES:
 
 
 //entity Funtions
-entity::entity(string name, int type){
+entity::entity(string name){
 
         std::cout << name << endl;
-        cout << type << endl;
 
 
-        switch (type)
+        /*switch (type)
         {
         case  0:
         {
@@ -49,7 +48,7 @@ entity::entity(string name, int type){
         default:
             break;
         }
-        
+        */
 
 }  
 

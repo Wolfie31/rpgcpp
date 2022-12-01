@@ -19,15 +19,15 @@ class npc: public entity{
         void generateStats();
 };
 
-class pc{
+class pc: public entity{
 
 };
 
-class obj{
+class obj:public entity{
 
 };
 
-class cosobj{
+class cosobj: public entity{
 
 };
 
