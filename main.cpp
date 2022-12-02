@@ -1,8 +1,8 @@
 #include<iostream>
-#include"includes/entityClass.h"
+#include"entityClass.h"
 
 int main(){
 
-    npc char1("Bob", 0 );
-    //char1.npc.getInfo;
+    entity char1("Bob", 0 );
+    char1.npc.getInfo
 }

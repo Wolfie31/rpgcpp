@@ -1,4 +1,4 @@
-#include"includes/entityClass.h"
+#include"entityClass.h"
 #include<iostream>
 #include<string>
 #include<iostream>
@@ -17,12 +17,13 @@ TYPES:
 
 
 //entity Funtions
-entity::entity(string name){
+entity::entity(string name, int type){
 
         std::cout << name << endl;
+        cout << type << endl;
 
 
-        /*switch (type)
+        switch (type)
         {
         case  0:
         {
@@ -48,7 +49,7 @@ entity::entity(string name){
         default:
             break;
         }
-        */
+        
 
 }  
 
@@ -60,7 +61,7 @@ entity::entity(string name){
 
 
 //npc constructor
-npc::npc(string newName,  int level){
+npc::npc(string newName,  int level)Q{
     name = newName;
     cout << "created npc named: " << name << ", starting at level: " << level << endl;
 }
